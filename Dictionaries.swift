@@ -1,4 +1,3 @@
-
 import UIKit
 
 // Sintaxis diccionarios
@@ -23,5 +22,12 @@ myModernDictionary[002]
 
 // Actualizar valores
 myModernDictionary.updateValue("Peter", forKey: 002)
+
+
+// Borrar dato
+myModernDictionary[002] = nil
+
+myModernDictionary.removeValue(forKey: 002)
+
 
 print(myModernDictionary)
